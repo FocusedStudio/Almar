@@ -281,6 +281,23 @@
     justify-content: center;
     align-items: center;
   }
+  .launch h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #222222;
+    font-size: 40px;
+    font-family: MonumentExtended-Regular;
+    }
+    
+    .launch span{
+    background-color: #4baef5;
+    color: #000; 
+    font-weight: bold; 
+    padding: 2px 40px; 
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    border-radius: 20px;
+    }
 
   .threebox-ctn{
     display: flex;
@@ -2565,20 +2582,20 @@
     display: none;
   }
   .home ul {
-    display: none; /* Hide menu initially */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    display: none;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    top: 70px; /* Position right below navbar */
-    left: 45%; /* Start at the center horizontally */
-    background-color: #0e2439; /* Dark background for better contrast */
-    width: 100%; /* Adjust menu width for better appearance */
-    max-width: 400px; /* Prevent it from getting too wide */
-    padding: 20px 0; /* Vertical padding */
+    top: 70px;
+    left: 45%;
+    background-color: #0e2439;
+    width: 86%;
+    max-width: 400px;
+    padding: 20px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    z-index: 999; /* Ensure it's on top */
-    gap: 15px; /* Spacing between links */
+    z-index: 999;
+    gap: 15px;
     text-align: center;
   }
   
@@ -3662,6 +3679,7 @@
 
   .media-buying p{
     width: 300px;
+    font-size: 20px;
   }
 
   .marketing-logos{
@@ -3738,23 +3756,34 @@
     align-items: center;
     flex-direction: column;
   }
-
+  .launch h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .more-button p{
     width: 80%;
     text-align: center;
     font-size: 23px;
     margin-bottom: 20px;
   }
-
+  .dig-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .dig-paragraph h1{
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    text-align: center;
   }
 
-
+  .infoo p{
+    font-size: 20px;
+  }
 
   .paragraf {
     font-family:Archivo-Medium;
@@ -3841,6 +3870,8 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    width: 100%;
+    justify-content: center;
   }
   .agency{
     width: 100%;
@@ -3972,7 +4003,10 @@
     width: 100%;
   }
 
-
+  .small-buttonsss{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
   .f-ctn p{
     font-size: 18px;
   }
@@ -4002,7 +4036,16 @@
   .ready-container{
     width: 100%;
   }
-
+  .chat-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .contact-ctn{
+    text-align: center;
+  }
   .ready-ctn{
     display: flex;
     justify-content: center;
@@ -4011,6 +4054,9 @@
   }
 
 
+  .home ul{
+    left: 7%;
+  }
   .almar-container{
     width: 100%;
     display: flex;
@@ -4067,7 +4113,7 @@
     width: 100%;
   }
   .innovate img{
-    width: 400px;
+    width: 80%;
   }
   .buttons{
     flex-direction: column;
@@ -4115,6 +4161,34 @@
     margin-left: 20px;
     height: 450px!important;
   }
+  .ads-ctn p{
+    font-size: 20px;
+  }
+  .phone-container select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    background-color: #072C45;
+    padding: 24px;
+    border-radius: 88px;
+    border: none;
+    color: #ACACAC;
+    margin-right: 10px;
+    font-family:Lexend-Light;
+  }
+  .platform-ctn select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #072C45;
+    padding: 24px;
+    border-radius: 88px;
+    border: none;
+    color: #ACACAC;
+    margin-right: 10px;
+    font-family:Lexend-Light;
+  }
   .innovate ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -4132,8 +4206,7 @@
   }
   .divs{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
   }
   .almar-container{
   }
@@ -4146,6 +4219,9 @@
   .testimonials-container {
     height: 1000px;
   }
+  .money-p{
+    text-align: center;
+  }
   .slick-list{
     padding-left: 7px;
   }
@@ -4153,4 +4229,12 @@
     left: 40% !important;}
     .slick-next {
       left: 46% !important;}
+}
+@media only screen and (max-width: 400px) {
+ .small-buttonss{
+  flex-direction: column;
+ }
+ .third-container{
+  height: 1000px;
+ }
 }

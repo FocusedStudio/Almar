@@ -311,12 +311,6 @@ border-radius: 20px;
 .btn-book button:hover{
   background-color: #ffffff;
   color: black;
-  font-family:Archivo-Medium;
-  font-size: 18px;
-  border: none;
-  padding: 24px 32px;
-  border-radius: 32px;
-  width: 224px;
 }
 
 .small-buttons {
@@ -1940,7 +1934,7 @@ border-radius: 20px;
 .innovate{
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 20px;
   /* align-items: center; */
 }
 
@@ -1972,7 +1966,7 @@ border-radius: 20px;
 }
 
 .info{
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
@@ -3188,7 +3182,7 @@ border-radius: 20px;
     top: 70px; /* Position right below navbar */
     left: 45%; /* Start at the center horizontally */
     background-color: #0e2439; /* Dark background for better contrast */
-    width: 100%; /* Adjust menu width for better appearance */
+    width: 86%; /* Adjust menu width for better appearance */
     max-width: 400px; /* Prevent it from getting too wide */
     padding: 20px 0; /* Vertical padding */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -3284,7 +3278,7 @@ border-radius: 20px;
 .btn-book button:hover{
   font-size: 18px;
   padding: 20px 20px;
-  width: 200px;
+  width: 100%;
 }
 
 .whatsapp-btn {
@@ -4385,54 +4379,67 @@ border-radius: 20px;
 }
 
 
-@media (min-width: 900px) and (max-width: 1420px) {
+@media (max-width: 1420px) {
+  
   .third-container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .about-us{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
 
   .about-almar{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .logos{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
   .testimonials-container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .scroll-container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
 
   .frame{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .frame img{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
   }
 
   .ready-container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .faq-container{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .footer{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 }
 
@@ -4554,8 +4561,13 @@ border-radius: 20px;
     gap: 20px;
     text-align: center;
   }
+  .clients {
+    padding: 24px;
+  }
   .small-buttonss{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
     margin-top: 20px;
     width: 100%;
@@ -4615,6 +4627,12 @@ border-radius: 20px;
   .d-container{
     max-width: 100%;
   }
+  .btn-container{
+    width: 100%;
+  }
+  .btn-book{
+    width: 60%;
+  }
   .ads-boxes{
     width: 100%;
     margin: 0px;
@@ -4641,6 +4659,9 @@ border-radius: 20px;
     height: 100%;
   }
   .phone-container select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     width: 100px;
     background-color: #072C45;
     padding: 24px;
@@ -4651,6 +4672,9 @@ border-radius: 20px;
     font-family:Lexend-Light;
   }
   .platform-ctn select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background-color: #072C45;
     padding: 24px;
     border-radius: 88px;
@@ -4682,7 +4706,7 @@ border-radius: 20px;
   }
 
   .f-ctn h2{
-    font-size: 25px;
+    font-size: 22px;
     width: 100%;
   }
   .chat-btns{
@@ -4727,6 +4751,7 @@ border-radius: 20px;
   .contact-ctn{
     width: 90%;
     margin: 0px;
+    text-align: center;
   }
   .contact-ctn p{
     font-size: 20px;
@@ -4749,6 +4774,7 @@ border-radius: 20px;
   .innovate img{
     width: 90%;
     max-width: 400px;
+    
   }
   .buttons{
     flex-direction: column;
@@ -4806,8 +4832,7 @@ border-radius: 20px;
   }
   .divs{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
   }
   .almar-container{
   }

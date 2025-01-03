@@ -118,7 +118,6 @@
     flex-direction: column;
   }
   
-  
 .clickable-div {
   cursor: pointer; 
 }
@@ -206,22 +205,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding:  20px 100px;
+  width: 1440px;
+  font-family: Archivo-Regular;
 }
   
-  .text-container{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    flex-direction: column;
-    padding:  20px 100px;
-    width: 1440px;
-    font-family: Archivo-Regular;
-    
-  }
 
 
 
-  .text-container p{
+  .texti p{
     font-size:24px ;
     font-family: PlusJakartaFont-Regular;
     line-height: 35.52px;
@@ -232,13 +225,13 @@
     align-items: flex-start;
   }
 
-  .text-container li{
+  .texti li{
     font-size:24px ;
     font-family: PlusJakartaFont-Regular;
     line-height: 35.52px;
 
   }
-  .text-container ul{
+  .texti ul{
     padding-left: 40px;
     margin-bottom: 30px;
     font-family: PlusJakartaFont-Regular;
@@ -744,20 +737,20 @@
     display: none;
   }
   .home ul {
-    display: none; /* Hide menu initially */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    display: none;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    top: 70px; /* Position right below navbar */
-    left: 45%; /* Start at the center horizontally */
-    background-color: #0e2439; /* Dark background for better contrast */
-    width: 100%; /* Adjust menu width for better appearance */
-    max-width: 400px; /* Prevent it from getting too wide */
-    padding: 20px 0; /* Vertical padding */
+    top: 70px;
+    left: 45%;
+    background-color: #0e2439;
+    width: 86%;
+    max-width: 400px;
+    padding: 20px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    z-index: 999; /* Ensure it's on top */
-    gap: 15px; /* Spacing between links */
+    z-index: 999;
+    gap: 15px;
     text-align: center;
   }
   
@@ -1021,6 +1014,13 @@
     .banner h1 {
       font-size: 20px;
     }
+    .texti{
+      width: 100%;
+    }
+    .text-container{
+      width: 200%;
+      max-width: 430px;
+    }
     .paragraf {
       font-family:Archivo-Medium;
       font-size: 20px;
@@ -1047,11 +1047,10 @@
       margin-top: 50px;
     }
     
-    .divs{
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-    }
+  .divs{
+    display: flex;
+    flex-direction: column;
+  }
       
     .info{
       display: flex;
@@ -1226,7 +1225,7 @@
       width: 100%;
     }
     .innovate img{
-      width: 400px;
+      width:90%;
     }
     .innovate ul li a{
       font-size: 15px;
@@ -1378,6 +1377,10 @@
     .contact-us-ctn{
       width: 100%;
     }
+    .texti{
+      padding: 30px;
+      text-align: left;
+    }
     .agency-acc{
       width: 100%;
       display: flex;
@@ -1403,11 +1406,5 @@
     }
     .infoo h1{
       font-size: 30px;
-    }
-    .texti{
-      width: 100%;
-    }
-    .text-container{
-      width: 100%;
     }
   }

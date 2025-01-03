@@ -2149,7 +2149,13 @@ form button{
       text-align: center;
     }
     .paragraph p{
-      font-size: 20p;
+      font-size: 20px;
+    }
+    .first-agency p{
+      font-size: 20px;
+    }
+    .second-agency p a{
+      font-size: 20px;
     }
     .divs{
       display: flex;

@@ -999,20 +999,20 @@ form button{
     display: none;
   }
   .home ul {
-    display: none; /* Hide menu initially */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    display: none;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    top: 70px; /* Position right below navbar */
-    left: 45%; /* Start at the center horizontally */
-    background-color: #0e2439; /* Dark background for better contrast */
-    width: 100%; /* Adjust menu width for better appearance */
-    max-width: 400px; /* Prevent it from getting too wide */
-    padding: 20px 0; /* Vertical padding */
+    top: 70px;
+    left: 45%;
+    background-color: #0e2439;
+    width: 86%;
+    max-width: 400px;
+    padding: 20px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    z-index: 999; /* Ensure it's on top */
-    gap: 15px; /* Spacing between links */
+    z-index: 999;
+    gap: 15px;
     text-align: center;
   }
   
@@ -1413,6 +1413,7 @@ form button{
     .login{
       width: 100%;
       height: 2000px;
+      margin-top: 280px;
     }
   
     .login-ctn{
@@ -1434,6 +1435,7 @@ form button{
 
     .contact{
       width: 100%;
+      text-align: center;
     }
 
     .contact-us-ctn{
@@ -1450,6 +1452,7 @@ form button{
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      margin-bottom: 300px;
     }
 
     .contact-us p{
@@ -1458,10 +1461,11 @@ form button{
 
     .second-h1{
       width: 100%;
+      text-align: center;
     }
 
     .second-h1 h1{
-      width: 90%;
+      width: 100%;
       line-height: 1.3;
     }
 
@@ -1882,6 +1886,10 @@ form button{
       height: 100%;
     }
     .phone-container select{
+      
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
       width: 100px;
     }
     .phone-container input{
@@ -2080,7 +2088,7 @@ form button{
       width: 100%;
     }
     .innovate img{
-      width: 400px;
+      width: 80%;
     }
     .buttons{
       flex-direction: column;
@@ -2145,8 +2153,7 @@ form button{
     }
     .divs{
       display: flex;
-      flex-direction: row;
-      gap: 20px;
+      flex-direction: column;
     }
     .almar-container{
     }

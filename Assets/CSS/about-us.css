@@ -290,7 +290,23 @@
   font-size: 25px;
   line-height: 50.32px;
 }
-
+.launch h1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #222222;
+  font-size: 40px;
+  font-family: MonumentExtended-Regular;
+  }
+  
+  .launch span{
+  background-color: #4baef5;
+  color: #000; 
+  font-weight: bold; 
+  padding: 2px 40px; 
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+  border-radius: 20px;
+  }
 
 
 .start h1 {
@@ -2477,20 +2493,20 @@
   display: none;
 }
 .home ul {
-  display: none; /* Hide menu initially */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  display: none;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  top: 70px; /* Position right below navbar */
-  left: 45%; /* Start at the center horizontally */
-  background-color: #0e2439; /* Dark background for better contrast */
-  width: 100%; /* Adjust menu width for better appearance */
-  max-width: 400px; /* Prevent it from getting too wide */
-  padding: 20px 0; /* Vertical padding */
+  top: 70px;
+  left: 45%;
+  background-color: #0e2439;
+  width: 86%;
+  max-width: 400px;
+  padding: 20px 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
-  z-index: 999; /* Ensure it's on top */
-  gap: 15px; /* Spacing between links */
+  z-index: 999;
+  gap: 15px;
   text-align: center;
 }
 
@@ -2600,12 +2616,13 @@
 }
 
 .telegram-btn {
-  padding: 12px 17px;
+  padding: 10px 22px;
   width: 170px;
   border: none;
+  margin-bottom: 10px;
 }
 .telegram-btn a {
-  font-size: 8px!important;
+  font-size: 12px!important;
 }
 
 .container{
@@ -3748,6 +3765,12 @@
 
   }
 
+  .small-buttonss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 
   .about-us{
     width: 100%;
@@ -3755,10 +3778,6 @@
 
   .about-us-ctn{
     width: 100%;
-  }
-
-  .almar-logo{
-    width: 90%;
   }
 
   .almar-logo h1{
@@ -3804,7 +3823,9 @@
     align-items: center;
     flex-direction: column;
   }
-
+  .infoo h1{
+    font-size: 40px;
+  }
   .form-ctn form{
     width: 90%;
   }
@@ -4175,7 +4196,9 @@
     width: 100%;
     font-size: 30px;
   }
-
+  .sliders{
+    margin-top: -20px;
+  }
   .ultimate-text span{
     display: flex;
     justify-content: center;
@@ -4398,7 +4421,32 @@
     flex-direction: column;
     height: auto;
   }
-
+  
+  .phone-container select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    background-color: #072C45;
+    padding: 24px;
+    border-radius: 88px;
+    border: none;
+    color: #ACACAC;
+    margin-right: 10px;
+    font-family:Lexend-Light;
+  }
+  .platform-ctn select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #072C45;
+    padding: 24px;
+    border-radius: 88px;
+    border: none;
+    color: #ACACAC;
+    margin-right: 10px;
+    font-family:Lexend-Light;
+  }
 
   .vision{
     width: 100%;
@@ -4434,6 +4482,7 @@
   width: 90%;
   }
   .contact-ctn{
+    text-align: center;
     width: 90%;
     margin: 0px;
   }
@@ -4456,7 +4505,7 @@
     width: 100%;
   }
   .innovate img{
-    width: 400px;
+    width: 80%;
   }
   .buttons{
     flex-direction: column;
@@ -4500,6 +4549,13 @@
   .home ul {
     left: 7%;
   }
+  .chat-btns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
   .slider-ctn{
     margin-left: 20px;
     height: 450px!important;
@@ -4521,10 +4577,7 @@
   }
   .divs{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-  .almar-container{
+    flex-direction: column;
   }
   .street{
     text-align: center;

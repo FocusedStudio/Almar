@@ -4573,11 +4573,14 @@
     text-align: center;
   }
   .paragraph p{
-    font-size: 20p;
+    font-size: 20px;
   }
   .divs{
     display: flex;
     flex-direction: column;
+  }
+  .about-almar p{
+    font-size: 20px;
   }
   .street{
     text-align: center;
